@@ -18,10 +18,13 @@
     <form action="#" class="m-4" method="#">
         <label for="numVal" class="form-label"><span class="form-header">Input Number:</span></label>
         <input type="number" class="form-control" id="numVal" name="numVal">
-        <input type="button" class="mt-2" value="check" onclick="checkNum()" id="checkBtn">
-        <input type="reset" class="mt-2" value="clear" onclick="clear()" id="resetBtn">
+        <input type="button" class="btn btn-primary mt-2" value="check" onclick="checkNum()" id="checkBtn">
+        <input type="reset" class="btn btn-danger mt-2" value="clear" onclick="clear()" id="resetBtn">
     </form>
-    <h2 id="display" class="m-4">=</h2>
+    <section class="result container p-4">
+    <span class="form-header">Result:</span>
+    <h4 id="display" class="mb-4">=</h4>
+    </section>
     </section>
 
 
